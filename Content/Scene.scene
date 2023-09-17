@@ -160,78 +160,37 @@
 		},
 		{
 			"ID": "c14f62724dacf3ebe62be8a095bea1c5",
-			"TypeName": "FlaxEngine.CharacterController",
-			"ParentID": "74a68a984824b4510d12589f199ad68f",
-			"Name": "CharacterController",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 10.0,
-					"Z": 0.0
-				}
-			},
-			"Center": {
-				"X": 0.0,
-				"Y": 125.0,
-				"Z": 0.0
-			}
+			"PrefabID": "5e3a2d7f44ec168c91cab8be96366ee5",
+			"PrefabObjectID": "0300e639463120843a599b9ff0f4473f",
+			"ParentID": "74a68a984824b4510d12589f199ad68f"
 		},
 		{
 			"ID": "75fed2b9459b867b937fa095473393b7",
-			"TypeName": "Game.PlayerMovement",
+			"PrefabID": "5e3a2d7f44ec168c91cab8be96366ee5",
+			"PrefabObjectID": "18e62e684f5c677326390aaedd23e75b",
 			"ParentID": "c14f62724dacf3ebe62be8a095bea1c5",
 			"V": {
 	"Player": "c14f62724dacf3ebe62be8a095bea1c5",
 	"PlayerController": "c14f62724dacf3ebe62be8a095bea1c5",
-	"Camera": "b0d72c3746caebca055e1f921ca21c7c",
-	"ColliderStanding": {
-		"X": 0.0,
-		"Y": 125.0,
-		"Z": 0.0
-	},
-	"StandingHeight": 150.0,
-	"WalkSpeed": 3.0,
-	"RunSpeed": 6.0,
-	"MoveSmoothTime": 0.1,
-	"CrouchHeight": 100.0,
-	"CrouchSpeed": 1.0,
-	"ColliderCrouching": {
-		"X": 0.0,
-		"Y": 100.0,
-		"Z": 0.0
-	},
-	"JumpStrength": 10.0,
-	"Gravity": 9.81
+	"Camera": "b0d72c3746caebca055e1f921ca21c7c"
 }
 		},
 		{
 			"ID": "b3b7a4044693879bfb03379325b44f14",
-			"TypeName": "Game.PlayerLook",
+			"PrefabID": "5e3a2d7f44ec168c91cab8be96366ee5",
+			"PrefabObjectID": "3e869ae8477485f0bba34fb98476a3ce",
 			"ParentID": "c14f62724dacf3ebe62be8a095bea1c5",
 			"V": {
 	"Player": "c14f62724dacf3ebe62be8a095bea1c5",
 	"CameraTarget": "b0d72c3746caebca055e1f921ca21c7c",
-	"Camera": "b0d72c3746caebca055e1f921ca21c7c",
-	"Sensitivity": {
-		"X": 0.25,
-		"Y": 0.25
-	},
-	"ClampX": 89.0
+	"Camera": "b0d72c3746caebca055e1f921ca21c7c"
 }
 		},
 		{
 			"ID": "b0d72c3746caebca055e1f921ca21c7c",
-			"TypeName": "FlaxEngine.Camera",
-			"ParentID": "c14f62724dacf3ebe62be8a095bea1c5",
-			"Name": "Camera",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 150.0,
-					"Z": 0.0
-				}
-			},
-			"StaticFlags": 0
+			"PrefabID": "5e3a2d7f44ec168c91cab8be96366ee5",
+			"PrefabObjectID": "b2cabd2a465d0a0bb765168ed530a8d5",
+			"ParentID": "c14f62724dacf3ebe62be8a095bea1c5"
 		}
 	]
 }

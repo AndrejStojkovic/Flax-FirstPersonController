@@ -9,7 +9,6 @@ namespace Game {
         public Camera Camera;
 
         [Header("Controller")]
-        public Vector3 ColliderStanding;
         public float StandingHeight;
         public float CameraOffsetY = 0f;
 
@@ -22,7 +21,6 @@ namespace Game {
         public float CrouchHeight;
         public float CrouchSpeed;
         public bool CrouchToggle = false;
-        public Vector3 ColliderCrouching;
         public bool isCrouching;
 
         [Header("Jump")]
@@ -64,12 +62,10 @@ namespace Game {
             
 
             if(isCrouching) {
-                PlayerController.Center = ColliderCrouching;
-                PlayerController.Height = CrouchHeight;
+                SetCapsuleHeight(CrouchHeight);
                 CurrentSpeed = CrouchSpeed;
             } else {
-                PlayerController.Center = ColliderStanding;
-                PlayerController.Height = StandingHeight;
+                SetCapsuleHeight(StandingHeight);
                 CurrentSpeed = Input.GetKey(KeyboardKeys.Shift) ? RunSpeed : WalkSpeed;
             }
 
@@ -103,6 +99,12 @@ namespace Game {
                     isCrouching = false;
                 }
             }
+        }
+
+        protected void SetCapsuleHeight(float value)
+        {
+            PlayerController.Center = new Vector3(0f, (value / 2f) + PlayerController.Radius, 0f);
+            PlayerController.Height = value;
         }
 
         protected void SetCameraHeight()
