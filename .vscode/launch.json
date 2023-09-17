@@ -1,0 +1,167 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "coreclr",
+			"name": "Game (C# attach Editor)",
+			"request": "attach",
+			"processName": "FlaxEditor"
+		},
+		{
+			"type": "coreclr",
+			"name": "Game|Editor.Windows.Debug|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "FPController|Editor.Windows.Debug|x64",
+			"cwd": "E:\\GameDev\\FPController",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.6\\Binaries\\Editor\\Win64\\Debug\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\GameDev\\FPController",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "Game|Editor.Windows.Development|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "FPController|Editor.Windows.Development|x64",
+			"cwd": "E:\\GameDev\\FPController",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.6\\Binaries\\Editor\\Win64\\Development\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\GameDev\\FPController",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "Game|Editor.Windows.Release|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "FPController|Editor.Windows.Release|x64",
+			"cwd": "E:\\GameDev\\FPController",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.6\\Binaries\\Editor\\Win64\\Release\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\GameDev\\FPController",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "Game|Game.Windows.Debug|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "FPController|Game.Windows.Debug|x64",
+			"cwd": "E:\\GameDev\\FPController",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.6\\Binaries\\Editor\\Win64\\Debug\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\GameDev\\FPController",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "Game|Game.Windows.Debug|Win32 (C#)",
+			"request": "launch",
+			"preLaunchTask": "FPController|Game.Windows.Debug|Win32",
+			"cwd": "E:\\GameDev\\FPController",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.6\\Binaries\\Editor\\Win32\\Debug\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\GameDev\\FPController",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "Game|Game.Windows.Development|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "FPController|Game.Windows.Development|x64",
+			"cwd": "E:\\GameDev\\FPController",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.6\\Binaries\\Editor\\Win64\\Development\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\GameDev\\FPController",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "Game|Game.Windows.Development|Win32 (C#)",
+			"request": "launch",
+			"preLaunchTask": "FPController|Game.Windows.Development|Win32",
+			"cwd": "E:\\GameDev\\FPController",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.6\\Binaries\\Editor\\Win32\\Development\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\GameDev\\FPController",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "Game|Game.Windows.Release|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "FPController|Game.Windows.Release|x64",
+			"cwd": "E:\\GameDev\\FPController",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.6\\Binaries\\Editor\\Win64\\Release\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\GameDev\\FPController",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "Game|Game.Windows.Release|Win32 (C#)",
+			"request": "launch",
+			"preLaunchTask": "FPController|Game.Windows.Release|Win32",
+			"cwd": "E:\\GameDev\\FPController",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.6\\Binaries\\Editor\\Win32\\Release\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\GameDev\\FPController",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "BuildScripts (C# attach Editor)",
+			"request": "attach",
+			"processName": "FlaxEditor"
+		},
+		{
+			"type": "coreclr",
+			"name": "BuildScripts|Debug|AnyCPU (C#)",
+			"request": "launch",
+			"preLaunchTask": "FPController|Debug|AnyCPU",
+			"cwd": "E:\\GameDev\\FPController",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.6\\Binaries\\Editor\\Win32\\Debug\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\GameDev\\FPController",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		}
+	]
+}

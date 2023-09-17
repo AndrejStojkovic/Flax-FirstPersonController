@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Game": {
+      "commandName": "Executable",
+      "workingDirectory": "E:\\GameDev\\FPController",
+      "executablePath": "C:\\Program Files (x86)\\Flax\\Flax_1.6\\Binaries\\Editor\\Win64\\Development\\FlaxEditor.exe",
+      "commandLineArgs": "-project \"E:\\GameDev\\FPController\"",
+      "nativeDebugging": false
+    }
+  }
+}
