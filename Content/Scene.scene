@@ -193,11 +193,11 @@
 	"WalkSpeed": 3.0,
 	"RunSpeed": 6.0,
 	"MoveSmoothTime": 0.1,
-	"CrouchHeight": 75.0,
-	"CrouchSpeed": 1.5,
+	"CrouchHeight": 100.0,
+	"CrouchSpeed": 1.0,
 	"ColliderCrouching": {
 		"X": 0.0,
-		"Y": 87.5,
+		"Y": 100.0,
 		"Z": 0.0
 	},
 	"JumpStrength": 10.0,

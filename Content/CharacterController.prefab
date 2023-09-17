@@ -1,0 +1,82 @@
+{
+	"ID": "5e3a2d7f44ec168c91cab8be96366ee5",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6344,
+	"Data": [
+	{
+		"ID": "0300e639463120843a599b9ff0f4473f",
+		"TypeName": "FlaxEngine.CharacterController",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "CharacterController",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 10.0,
+				"Z": 0.0
+			}
+		},
+		"Center": {
+			"X": 0.0,
+			"Y": 125.0,
+			"Z": 0.0
+		}
+	},
+	{
+		"ID": "18e62e684f5c677326390aaedd23e75b",
+		"TypeName": "Game.PlayerMovement",
+		"ParentID": "0300e639463120843a599b9ff0f4473f",
+		"V": {
+			"Player": "0300e639463120843a599b9ff0f4473f",
+			"PlayerController": "0300e639463120843a599b9ff0f4473f",
+			"Camera": "b2cabd2a465d0a0bb765168ed530a8d5",
+			"ColliderStanding": {
+				"X": 0.0,
+				"Y": 125.0,
+				"Z": 0.0
+			},
+			"StandingHeight": 150.0,
+			"WalkSpeed": 3.0,
+			"RunSpeed": 6.0,
+			"MoveSmoothTime": 0.1,
+			"CrouchHeight": 100.0,
+			"CrouchSpeed": 1.0,
+			"ColliderCrouching": {
+				"X": 0.0,
+				"Y": 100.0,
+				"Z": 0.0
+			},
+			"JumpStrength": 10.0,
+			"Gravity": 9.81
+		}
+	},
+	{
+		"ID": "3e869ae8477485f0bba34fb98476a3ce",
+		"TypeName": "Game.PlayerLook",
+		"ParentID": "0300e639463120843a599b9ff0f4473f",
+		"V": {
+			"Player": "0300e639463120843a599b9ff0f4473f",
+			"CameraTarget": "b2cabd2a465d0a0bb765168ed530a8d5",
+			"Camera": "b2cabd2a465d0a0bb765168ed530a8d5",
+			"Sensitivity": {
+				"X": 0.25,
+				"Y": 0.25
+			},
+			"ClampX": 89.0
+		}
+	},
+	{
+		"ID": "b2cabd2a465d0a0bb765168ed530a8d5",
+		"TypeName": "FlaxEngine.Camera",
+		"ParentID": "0300e639463120843a599b9ff0f4473f",
+		"Name": "Camera",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 150.0,
+				"Z": 0.0
+			}
+		},
+		"StaticFlags": 0
+	}
+]
+}
